@@ -1,0 +1,326 @@
+/* fonts */
+html, body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #EEEEEE;
+}
+.railway {
+    font-family: 'Raleway', sans-serif;
+}
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+.teko {
+    font-family: 'Teko', sans-serif;
+}
+.font-12 {
+    font-size: 12px;
+    line-height: 12px;
+}
+.font-13 {
+    font-size: 13px;
+}
+.font-15 {
+    font-size: 15px;
+    line-height: 15px;
+}
+.font-17 {
+    font-size: 17px;
+    line-height: 22px;
+}
+.font-20 {
+    font-size: 20px;
+    line-height: 20px;
+}
+.font-22 {
+    font-size: 22px;
+    line-height: 22px;
+}
+.font-25 {
+    font-size: 25px;
+    line-height: 25px;
+}
+.font-27 {
+    font-size: 27px;
+    line-height: 27px;
+}
+.font-35 {
+    font-size: 35px;
+    line-height: 35px;
+}
+.font-64 {
+    font-size: 64px;
+    line-height: 64px;
+}
+
+/* button */
+.btn-primary {
+    color: #000;
+    background-color: #ffcc00;
+    border-color: #ffcc00;
+}
+.font-color-primary {
+    color: #ffcc00;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+
+
+/* nav */
+.bg-dark {
+    background-color: #000 !important;
+}
+a.nav-link {
+    color: rgba(255,255,255,.75) !important;
+}
+a.nav-link.signup-nav-link {
+    color: #ffcc00 !important;
+}
+/* layout */
+#sub-page-meta {
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px 0px;
+    padding: 10px 0px;
+}
+.sub-page-meta--primary {
+    background: #ffcc00 !important;
+}
+
+#sub-page-meta h2 {
+    margin: 0px;
+}
+
+/* profile-cards */
+#profile-cards {
+    background-color: #EEEEEE;
+}
+#profile-cards .card {
+    min-height: 304px; 
+}
+.position {
+    border: solid 1px #ffcc00;
+    line-height: 24px;
+    padding: 0px 5px 0px 5px;
+    vertical-align: middle;
+    font-size: 21px;
+    margin-left: 5px;
+    background: #ffcc00;
+}
+p.info-label.montserrat {
+    color: #757575;
+    margin-bottom: 2px;
+}
+p.info-value.teko {
+    margin-top: 5px;
+}
+
+/* combine-card */
+div#exampleModal {
+    background-color: rgba(255,255,255,.5);
+}
+.modal-header {
+    background: #000;
+    padding: 15px 30px;
+    border-bottom: 10px solid #ffcc00;
+}
+span.font-yellow {
+    color: #ffcc00;
+}
+h5.combine-card-title {
+    color: #fff;
+    font-size: 40px;
+    line-height: 38px;
+    margin-top: 10px;
+}
+.combine-card-name {
+    font-size: 34px;
+    margin-bottom: 0px;
+}   
+h6.combine-card-combine-name {
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+p.combine-card-combine-meta {
+    font-size: 13px;
+}
+.grey-font {
+    color: #ffcc00;
+}
+h1.teko.combine-card-rating {
+    font-size: 120px;
+    text-align: center;
+}
+h2.combine-card-rating-title.teko {
+    font-size: 27px;
+}
+h5.combine-card-event-label {
+    font-size: 12px;
+    border-top: 4px solid black;
+    padding-top: 8px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+h5.combine-card-event-value {
+    text-align: center;
+    font-size: 30px;
+}
+.modal-footer {
+    background: #000;
+    border-top: 10px solid #ffcc00;
+}
+.btn-primary-ab {
+    background-color: #333;
+    border-color: #333;
+    color: #fff;
+}
+
+
+/* event results */
+.combine-event-result.text-center {
+    padding: 15px;
+}
+
+.combine-event-label {
+    color: #757575;
+}
+.combine-event-result-value, .combine-event-result-value--black {
+    background: #ffcc00;
+    padding: 15px 5px 10px 5px;
+    margin-bottom: 7px;
+}
+.combine-event-result-value--black {
+    background: #000;
+    color: #fff;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.thumb-container {
+    width: 102px;
+    margin-right: 10px; 
+}
+
+.ranking-table td, .ranking-table th {
+    vertical-align: middle;
+}
+
+/* footer */
+footer {
+    background: #000;
+    padding: 60px 0px 0px 0px;
+    margin-top: 60px;
+}
+h5.footer-header {
+    color: #fff;
+}
+.footer-list {
+    list-style: none;
+    margin: 10px 0px;
+    padding: 0px;
+}
+.footer-list-a {
+    color: #acadac;
+    font-size: 13px;
+    margin-bottom: 13px;
+}
+.footer-list-a:hover {
+    color: #ffcc00;
+}
+
+p.legal.font-12.text-center {
+    color: #fff;
+    border-top: 1px solid #444;
+    line-height: 22px;
+    padding: 15px 0px;
+}
+
+/* top-performers */
+.performers {
+    list-style: none;
+    margin: 0px;
+    padding: 0px; 
+}
+.performer {
+    background: url(images/performance-sprite.png);
+    width: 762px;
+    background-position: 0px -61px;
+    height: 115px;
+}
+.performer-rank-num {
+    font-size: 48px;
+    line-height: 100px;
+    vertical-align: middle;
+    color: #858585;
+}
+.perfomrmer-rank {
+    width: 48px;
+    text-align: center;
+}
+.performer-rank-pos {
+    color: #e0e0e0;
+    font-size: 30px;
+    line-height: 30px;
+}
+.performer-rank-img img {
+    display: block;
+    margin: 12px 8px;
+    border-radius: 3px;
+    overflow: hidden;
+    width: 96px;
+}
+.performer-meta {
+    position: absolute;
+    bottom: 5px;
+    left: 150px;
+    font-size: 22px;
+    line-height: 22px;
+    right: 10px;
+    text-align: right;
+}
+.performer-rank-chart {
+    background: url(images/performance-sprite.png);
+    width: 596px;
+    background-position: 0px -176px;
+    height: 78px;
+    margin: 10px 0px;
+}
+.performer-rank-value {
+    background: url(images/performance-sprite.png) no-repeat;
+    background-position: 0px -254px;
+    height: 78px;
+    margin: 0px;
+    display: inline-block;
+    font-size: 50px;
+    color: #000;
+    padding: 0px 20px;
+    line-height: 85px;
+}
+.value-tick {
+    background: url(images/performance-sprite.png) no-repeat;
+    background-position: 0px -331px;
+    width: 8px;
+    height: 78px;
+    margin: 0px;
+    display: inline-block;
+}
+.perforer-rank-name {
+    position: absolute;
+    bottom: 0px;
+    left: 160px;
+}
+h2 {
+    font-size: 20px;
+    line-height: 22px;
+    margin: 0px;
+}
+
+/* camp scheule */
+.subpage-banner {
+    height: 230px;    
+}
+.camp-schedule-banner {
+    background: url(images/camp-banner.jpg);
+    background-position: center left;
+}
